@@ -172,6 +172,7 @@ header ul.topr li:nth-child(3):hover {
 	border: 1px solid #e5e5e5;
 }
 .manyads{
+	display: none;
 	position:absolute;
 	top: 32px;
 	left: 62px;
@@ -179,7 +180,8 @@ header ul.topr li:nth-child(3):hover {
 	width:700px;
 	height: 405px;
 	border:1px solid #e5e5e5;
-	border-top: none;background: #fff;
+	border-top: none;
+	background: #fff;
 }
 .formtab{
 	height: 54px;
@@ -258,7 +260,176 @@ label[for="letters"]{
 	margin-top: -16px;
 }
 /*---------------按字母查找下部----------*/
+.box{
+	position: relative;
+	margin-top: -12px;
+	height: 229px;
+	overflow: hidden;
+	/*border: 1px solid yellow;*/
+}
+.scroll{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width:15px;
+	height: 590px;
+	background: rgb(241,241,241);
+}
+.bar{
+	position: absolute;
+	top: 0px;
+	width:15px;
+	height: 50px;
+	background: rgb(193,193,193);
+	cursor:pointer;
+}
+.bar:hover{
+	background: rgb(168,168,168);
+}
+.uplettercon {
+	/*border:1px solid red;*/
+}
 .uplettercon li span.upperletter{
 	color: rgb(206,206,206);
+	font-size: 16px;
+}
+.upperletterA{
+	position: absolute;
+	left: 0px;
+}
+.uplettercon li.list{
+	position: relative;
+	margin-bottom: 10px;
+	/*border:1px solid green;*/
+}
+/*A 2*/
+.uplettercon li.list:nth-child(1){
+	height: 48px;
+}
+/*B*/
+.uplettercon li.list:nth-child(2){
+	height: 76px;
+}
+/*C*/
+.uplettercon li.list:nth-child(3){
+	height: 76px;
+}
+/*D 2*/
+.uplettercon li.list:nth-child(4){
+	height: 48px;
+}
+/*E 1*/
+.uplettercon li.list:nth-child(5){
+	height: 20px;
+}
+/*F 1*/
+.uplettercon li.list:nth-child(6){
+	height: 20px;
+}
+/*G 2*/
+.uplettercon li.list:nth-child(7){
+	height: 48px;
+}
+/*H 4*/
+.uplettercon li.list:nth-child(8){
+	height: 108px;
+}
+/*J*/
+.uplettercon li.list:nth-child(9){
+	height: 76px;
+}
+/*K 1*/
+.uplettercon li.list:nth-child(10){
+	height: 20px;
+}
+/*L 4*/
+.uplettercon li.list:nth-child(11){
+	height: 108px;
+}
+/*M 1*/
+.uplettercon li.list:nth-child(12){
+	height: 20px;
+}
+/*N 2*/
+.uplettercon li.list:nth-child(13){
+	height: 48px;
+}
+/*P 1*/
+.uplettercon li.list:nth-child(14){
+	height: 20px;
+}
+/*Q 2*/
+.uplettercon li.list:nth-child(15){
+	height: 48px;
+}
+/*R 1*/
+.uplettercon li.list:nth-child(16){
+	height: 20px;
+}
+/*S 4*/
+.uplettercon li.list:nth-child(17){
+	height: 108px;
+}
+/*T 2*/
+.uplettercon li.list:nth-child(18){
+	height:48px;
+}
+/*W 2*/
+.uplettercon li.list:nth-child(19){
+	height:48px;
+}
+/*X*/
+.uplettercon li.list:nth-child(20){
+	height:76px;
+}
+/*Y*/
+.uplettercon li.list:nth-child(21){
+	height:76px;
+}
+/*Z*/
+.uplettercon li.list:nth-child(22){
+	height:76px;
+}
+.uplettercon li.list ul{
+	position: absolute;
+	top: -2px;
+	width: 630px;
+	margin-left: 24px;
+	height: 38px;
+	/*border: 1px solid blue;*/
+}
+.uplettercon li ul li{
+	float: left;
+	margin-right: 30px;
+	line-height: 22px;
+}
+.uplettercon li ul li a{
+	font-size: 12px;
+	color: #666;
+}
+.uplettercon li ul li a:hover{
+	color: rgb(255,64,64);
+}
+/*----------------------------------------第二部分-----------------------*/
+.second_line{
+	padding: 0px 30px;
+	height: 150px;
+	border: 1px solid red;
+}
+.second_line .inPut{
+	width: 755px;
+	position: relative;
+	border: 1px solid blue;
+}
+.second_line img{
+	line-height: 150px;
+	border: 1px solid blue;
+}
+.second_line input[type="text"]{
+	width: 700px;
+	height: 38px;
 	font-size: 14px;
+	line-height: 38px;
+	border: 3px solid rgb(255,64,64);
+	border-right: 52px solid rgb(255,64,64);
 }

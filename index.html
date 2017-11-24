@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
 		<script src="js/jquery-1.8.3.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/common.css"/>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
 	</head>
+
 	<body>
 		<!--顶部-->
 		<header>
@@ -17,373 +19,1460 @@
 			<div class="manyads">
 				<div class="formtab">
 					<label for="cityname">搜索城市：</label>
-					<input type="text" id="cityname" placeholder="请输入城市名称"/>
+					<input type="text" id="cityname" placeholder="请输入城市名称" />
 				</div>
 				<div class="formtab">
 					<label for="hotcity">热门城市：</label>
 					<ul class="hotcity">
-						<li><a href="#">上海市</a></li>
-						<li><a href="#">北京市</a></li>
-						<li><a href="#">广州市</a></li>
-						<li><a href="#">深圳市</a></li>
-						<li><a href="#">南京市</a></li>
-						<li><a href="#">杭州市</a></li>
-						<li><a href="#">武汉市</a></li>
-						<li><a href="#">成都市</a></li>
-						<li><a href="#">重庆市</a></li>
-						<li><a href="#">苏州市</a></li>
-						<li><a href="#">天津市</a></li>
-						<li><a href="#">合肥市</a></li>
-						<li><a href="#">温州市</a></li>
-						<li><a href="#">无锡市</a></li>
-						<li><a href="#">宁波市</a></li>
-						<li><a href="#">常州市</a></li>
+						<li>
+							<a href="#">上海市</a>
+						</li>
+						<li>
+							<a href="#">北京市</a>
+						</li>
+						<li>
+							<a href="#">广州市</a>
+						</li>
+						<li>
+							<a href="#">深圳市</a>
+						</li>
+						<li>
+							<a href="#">南京市</a>
+						</li>
+						<li>
+							<a href="#">杭州市</a>
+						</li>
+						<li>
+							<a href="#">武汉市</a>
+						</li>
+						<li>
+							<a href="#">成都市</a>
+						</li>
+						<li>
+							<a href="#">重庆市</a>
+						</li>
+						<li>
+							<a href="#">苏州市</a>
+						</li>
+						<li>
+							<a href="#">天津市</a>
+						</li>
+						<li>
+							<a href="#">合肥市</a>
+						</li>
+						<li>
+							<a href="#">温州市</a>
+						</li>
+						<li>
+							<a href="#">无锡市</a>
+						</li>
+						<li>
+							<a href="#">宁波市</a>
+						</li>
+						<li>
+							<a href="#">常州市</a>
+						</li>
 					</ul>
 				</div>
 				<div class="xvx"></div>
 				<div class="formtab">
 					<label for="letters">按字母查找</label>
 					<ul class="letters">
-						<li><a href="#">A</a></li>
-						<li><a href="#">B</a></li>
-						<li><a href="#">C</a></li>
-						<li><a href="#">D</a></li>
-						<li><a href="#">E</a></li>
-						<li><a href="#">F</a></li>
-						<li><a href="#">G</a></li>
-						<li><a href="#">H</a></li>
-						<li><a href="#">J</a></li>
-						<li><a href="#">K</a></li>
-						<li><a href="#">L</a></li>
-						<li><a href="#">M</a></li>
-						<li><a href="#">N</a></li>
-						<li><a href="#">P</a></li>
-						<li><a href="#">Q</a></li>
-						<li><a href="#">R</a></li>
-						<li><a href="#">S</a></li>
-						<li><a href="#">T</a></li>
-						<li><a href="#">W</a></li>
-						<li><a href="#">X</a></li>
-						<li><a href="#">Y</a></li>
-						<li><a href="#">Z</a></li>
+						<li>
+							<a href="#">A</a>
+						</li>
+						<li>
+							<a href="#">B</a>
+						</li>
+						<li>
+							<a href="#">C</a>
+						</li>
+						<li>
+							<a href="#">D</a>
+						</li>
+						<li>
+							<a href="#">E</a>
+						</li>
+						<li>
+							<a href="#">F</a>
+						</li>
+						<li>
+							<a href="#">G</a>
+						</li>
+						<li>
+							<a href="#">H</a>
+						</li>
+						<li>
+							<a href="#">J</a>
+						</li>
+						<li>
+							<a href="#">K</a>
+						</li>
+						<li>
+							<a href="#">L</a>
+						</li>
+						<li>
+							<a href="#">M</a>
+						</li>
+						<li>
+							<a href="#">N</a>
+						</li>
+						<li>
+							<a href="#">P</a>
+						</li>
+						<li>
+							<a href="#">Q</a>
+						</li>
+						<li>
+							<a href="#">R</a>
+						</li>
+						<li>
+							<a href="#">S</a>
+						</li>
+						<li>
+							<a href="#">T</a>
+						</li>
+						<li>
+							<a href="#">W</a>
+						</li>
+						<li>
+							<a href="#">X</a>
+						</li>
+						<li>
+							<a href="#">Y</a>
+						</li>
+						<li>
+							<a href="#">Z</a>
+						</li>
 					</ul>
 				</div>
-				<ul class="uplettercon">
-					<li>
-						<span class="upperletter">A</span>
-						<ul>
-							<li>阿勒泰地区</li>
-							<li>安顺市</li>
-							<li>安庆市</li>
-							<li>鞍山市</li>
-							<li>阿坝州</li>
-							<li>阿克苏地区</li>
-							<li>安康市</li>
-							<li>阿拉善盟</li>
-							<li>阿里地区</li>
-							<li>安阳市</li>
-							<li>阿拉尔市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">B</span>
-						<ul>
-							<li>北京</li>
-							<li>滨州市</li>
-							<li>博尔塔拉州</li>
-							<li>毕节市</li>
-							<li>蚌阜市</li>
-							<li>巴音郭楞州</li>
-							<li>保山市</li>
-							<li>本溪市</li>
-							<li>白沙县</li>
-							<li>白城市</li>
-							<li>保亭县</li>
-							<li>北海市</li>
-							<li>白山市</li>
-							<li>保定市</li>
-							<li>毫州市</li>
-							<li>包头市</li>
-							<li>白银市</li>
-							<li>巴彦淖尔市</li>
-							<li>百色市</li>
-							<li>巴中市</li>
-							<li>宝鸡市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">C</span>
-						<ul>
-							<li>重庆</li>
-							<li>昌吉州</li>
-							<li>朝阳市</li>
-							<li>长春市</li>
-							<li>郴州市</li>
-							<li>昌江县</li>
-							<li>澄迈县</li>
-							<li>昌都地区</li>
-							<li>崇左市</li>
-							<li>滁州市</li>
-							<li>潮州市</li>
-							<li>长治市</li>
-							<li>承德市</li>
-							<li>池州市</li>
-							<li>赤峰市</li>
-							<li>沧州市</li>
-							<li>长沙市</li>
-							<li>楚雄州</li>
-							<li>常德市</li>
-							<li>常州市</li>
-							<li>成都市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">D</span>
-						<ul>
-							<li>大连市</li>
-							<li>东莞市</li>
-							<li>东营市</li>
-							<li>德州市</li>
-							<li>丹东市</li>
-							<li>定安县</li>
-							<li>东方市</li>
-							<li>大庆市</li>
-							<li>定西市</li>
-							<li>大同市</li>
-							<li>迪庆市</li>
-							<li>大兴安岭地区</li>
-							<li>德州市</li>
-							<li>达州市</li>
-							<li>大理州</li>
-							<li>德宏州</li>
-							<li>德阳市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">E</span>
-						<ul>
-							<li>鄂尔多斯市</li>
-							<li>鄂州市</li>
-							<li>恩施州</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">F</span>
-						<ul>
-							<li>阜新市</li>
-							<li>抚顺市</li>
-							<li>防城港市</li>
-							<li>阜阳市</li>
-							<li>佛山市</li>
-							<li>抚州市</li>
-							<li>福州市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">G</span>
-						<ul>
-							<li>广州市</li>
-							<li>果洛州</li>
-							<li>甘南州</li>
-							<li>甘孜州</li>
-							<li>贵港市</li>
-							<li>桂林市</li>
-							<li>固原市</li>
-							<li>贵阳市</li>
-							<li>赣州市</li>
-							<li>广安市</li>
-							<li>广元市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">H</span>
-						<ul>
-							<li>惠州市</li>
-							<li>菏泽市</li>
-							<li>合肥市</li>
-							<li>淮北市</li>
-							<li>淮南市</li>
-							<li>黄山市</li>
-							<li>黄山市</li>
-							<li>河源市</li>
-							<li>怀化市</li>
-							<li>葫芦岛市</li>
-							<li>海西州</li>
-							<li>黄南州</li>
-							<li>哈尔滨市</li>
-							<li>海北州</li>
-							<li>邯郸市</li>
-							<li>海南州</li>
-							<li>湖州市</li>
-							<li>海东地区</li>
-							<li>哈密地区</li>
-							<li>和田地区</li>
-							<li>海口市</li>
-							<li>杭州市</li>
-							<li>鹤岗市</li>
-							<li>衡水市</li>
-							<li>汉中市</li>
-							<li>呼和浩特市</li>
-							<li>黄石市</li>
-							<li>黑河市</li>
-							<li>呼伦贝尔市</li>
-							<li>河池市</li>
-							<li>贺州市</li>
-							<li>衡阳市</li>
-							<li>红河州</li>
-							<li>淮安市</li>
-							<li>鹤壁市</li>
-							<li>黄冈市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">J</span>
-						<ul>
-							<li>江门市</li>
-							<li>济源市</li>
-							<li>锦州市</li>
-							<li>嘉兴市</li>
-							<li>金华市</li>
-							<li>吉林市</li>
-							<li>鸡西市</li>
-							<li>揭阳市</li>
-							<li>佳木斯市</li>
-							<li>吉安市</li>
-							<li>金昌市</li>
-							<li>嘉峪关市</li>
-							<li>晋中市</li>
-							<li>九江市</li>
-							<li>晋城市</li>
-							<li>景德镇市</li>
-							<li>酒泉市</li>
-							<li>荆门市</li>
-							<li>焦作市</li>
-							<li>济南市</li>
-							<li>荆州市</li>
-							<li>济宁市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">K</span>
-						<ul>
-							<li>昆明市</li>
-							<li>克孜勒苏阿科尔克牧自治州</li>
-							<li>喀什地区</li>
-							<li>克拉玛依市</li>
-							<li>开封市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">L</span>
-						<ul>
-							<li>辽阳市</li>
-							<li>娄底市</li>
-							<li>莱芜市</li>
-							<li>临沧市</li>
-							<li>聊城市</li>
-							<li>临沂市</li>
-							<li>乐东县</li>
-							<li>陵水县</li>
-							<li>临高县</li>
-							<li>凉山州</li>
-							<li>临夏州</li>
-							<li>柳州市</li>
-							<li>六盘水市</li>
-							<li>六安市</li>
-							<li>廊坊市</li>
-							<li>龙岩市</li>
-							<li>辽源市</li>
-							<li>拉萨市</li>
-							<li>兰州市</li>
-							<li>来宾市</li>
-							<li>丽水市</li>
-							<li>林芝地区</li>
-							<li>吕梁市</li>
-							<li>陇南市</li>
-							<li>临汾市</li>
-							<li>丽江市</li>
-							<li>连云港市</li>
-							<li>洛阳市</li>
-							<li>乐山市</li>
-							<li>泸州市</li>
-							<li>漯河市</li>
-						</ul>
-					</li>
-					<li>
-						<span class="upperletter">M</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">N</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">P</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">Q</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">R</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">S</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">T</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">W</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">X</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">Y</span>
-						
-					</li>
-					<li>
-						<span class="upperletter">Z</span>
-						
-					</li>
-				</ul>
+				<div class="box" id="box">
+					<ul class="uplettercon">
+						<li class="list">
+							<span class="upperletter upperletterA">A</span>
+							<ul>
+								<li>
+									<a href="#">阿勒泰地区</a>
+								</li>
+								<li>
+									<a href="#">安顺市</a>
+								</li>
+								<li>
+									<a href="#">安庆市</a>
+								</li>
+								<li>
+									<a href="#">鞍山市</a>
+								</li>
+								<li>
+									<a href="#">阿坝州</a>
+								</li>
+								<li>
+									<a href="#">阿克苏地区</a>
+								</li>
+								<li>
+									<a href="#">安康市</a>
+								</li>
+								<li>
+									<a href="#">阿拉善盟</a>
+								</li>
+								<li>
+									<a href="#">阿里地区</a>
+								</li>
+								<li>
+									<a href="#">安阳市</a>
+								</li>
+								<li>
+									<a href="#">阿拉尔市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">B</span>
+							<ul>
+								<li>
+									<a href="#">北京</a>
+								</li>
+								<li>
+									<a href="#">滨州市</a>
+								</li>
+								<li>
+									<a href="#">博尔塔拉州</a>
+								</li>
+								<li>
+									<a href="#">毕节市</a>
+								</li>
+								<li>
+									<a href="#">蚌阜市</a>
+								</li>
+								<li>
+									<a href="#">巴音郭楞州</a>
+								</li>
+								<li>
+									<a href="#">保山市</a>
+								</li>
+								<li>
+									<a href="#">本溪市</a>
+								</li>
+								<li>
+									<a href="#">白沙县</a>
+								</li>
+								<li>
+									<a href="#">白城市</a>
+								</li>
+								<li>
+									<a href="#">保亭县</a>
+								</li>
+								<li>
+									<a href="#">北海市</a>
+								</li>
+								<li>
+									<a href="#">白山市</a>
+								</li>
+								<li>
+									<a href="#">保定市</a>
+								</li>
+								<li>
+									<a href="#">毫州市</a>
+								</li>
+								<li>
+									<a href="#">包头市</a>
+								</li>
+								<li>
+									<a href="#">白银市</a>
+								</li>
+								<li>
+									<a href="#">巴彦淖尔市</a>
+								</li>
+								<li>
+									<a href="#">百色市</a>
+								</li>
+								<li>
+									<a href="#">巴中市</a>
+								</li>
+								<li>
+									<a href="#">宝鸡市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">C</span>
+							<ul>
+								<li>
+									<a href="#">重庆</a>
+								</li>
+								<li>
+									<a href="#">昌吉州</a>
+								</li>
+								<li>
+									<a href="#">朝阳市</a>
+								</li>
+								<li>
+									<a href="#">长春市</a>
+								</li>
+								<li>
+									<a href="#">郴州市</a>
+								</li>
+								<li>
+									<a href="#">昌江县</a>
+								</li>
+								<li>
+									<a href="#">澄迈县</a>
+								</li>
+								<li>
+									<a href="#">昌都地区</a>
+								</li>
+								<li>
+									<a href="#">崇左市</a>
+								</li>
+								<li>
+									<a href="#">滁州市</a>
+								</li>
+								<li>
+									<a href="#">潮州市</a>
+								</li>
+								<li>
+									<a href="#">长治市</a>
+								</li>
+								<li>
+									<a href="#">承德市</a>
+								</li>
+								<li>
+									<a href="#">池州市</a>
+								</li>
+								<li>
+									<a href="#">赤峰市</a>
+								</li>
+								<li>
+									<a href="#">沧州市</a>
+								</li>
+								<li>
+									<a href="#">长沙市</a>
+								</li>
+								<li>
+									<a href="#">楚雄州</a>
+								</li>
+								<li>
+									<a href="#">常德市</a>
+								</li>
+								<li>
+									<a href="#">常州市</a>
+								</li>
+								<li>
+									<a href="#">成都市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">D</span>
+							<ul>
+								<li>
+									<a href="#">大连市</a>
+								</li>
+								<li>
+									<a href="#">东莞市</a>
+								</li>
+								<li>
+									<a href="#">东营市</a>
+								</li>
+								<li>
+									<a href="#">德州市</a>
+								</li>
+								<li>
+									<a href="#">丹东市</a>
+								</li>
+								<li>
+									<a href="#">定安县</a>
+								</li>
+								<li>
+									<a href="#">东方市</a>
+								</li>
+								<li>
+									<a href="#">大庆市</a>
+								</li>
+								<li>
+									<a href="#">定西市</a>
+								</li>
+								<li>
+									<a href="#">大同市</a>
+								</li>
+								<li>
+									<a href="#">迪庆市</a>
+								</li>
+								<li>
+									<a href="#">大兴安岭地区</a>
+								</li>
+								<li>
+									<a href="#">德州市</a>
+								</li>
+								<li>
+									<a href="#">达州市</a>
+								</li>
+								<li>
+									<a href="#">大理州</a>
+								</li>
+								<li>
+									<a href="#">德宏州</a>
+								</li>
+								<li>
+									<a href="#">德阳市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">E</span>
+							<ul>
+								<li>
+									<a href="#">鄂尔多斯市</a>
+								</li>
+								<li>
+									<a href="#">鄂州市</a>
+								</li>
+								<li>
+									<a href="#">恩施州</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">F</span>
+							<ul>
+								<li>
+									<a href="#">阜新市</a>
+								</li>
+								<li>
+									<a href="#">抚顺市</a>
+								</li>
+								<li>
+									<a href="#">防城港市</a>
+								</li>
+								<li>
+									<a href="#">阜阳市</a>
+								</li>
+								<li>
+									<a href="#">佛山市</a>
+								</li>
+								<li>
+									<a href="#">抚州市</a>
+								</li>
+								<li>
+									<a href="#">福州市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">G</span>
+							<ul>
+								<li>
+									<a href="#">广州市</a>
+								</li>
+								<li>
+									<a href="#">果洛州</a>
+								</li>
+								<li>
+									<a href="#">甘南州</a>
+								</li>
+								<li>
+									<a href="#">甘孜州</a>
+								</li>
+								<li>
+									<a href="#">贵港市</a>
+								</li>
+								<li>
+									<a href="#">桂林市</a>
+								</li>
+								<li>
+									<a href="#">固原市</a>
+								</li>
+								<li>
+									<a href="#">贵阳市</a>
+								</li>
+								<li>
+									<a href="#">赣州市</a>
+								</li>
+								<li>
+									<a href="#">广安市</a>
+								</li>
+								<li>
+									<a href="#">广元市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">H</span>
+							<ul>
+								<li>
+									<a href="#">惠州市</a>
+								</li>
+								<li>
+									<a href="#">菏泽市</a>
+								</li>
+								<li>
+									<a href="#">合肥市</a>
+								</li>
+								<li>
+									<a href="#">淮北市</a>
+								</li>
+								<li>
+									<a href="#">淮南市</a>
+								</li>
+								<li>
+									<a href="#">黄山市</a>
+								</li>
+								<li>
+									<a href="#">黄山市</a>
+								</li>
+								<li>
+									<a href="#">河源市</a>
+								</li>
+								<li>
+									<a href="#">怀化市</a>
+								</li>
+								<li>
+									<a href="#">葫芦岛市</a>
+								</li>
+								<li>
+									<a href="#">海西州</a>
+								</li>
+								<li>
+									<a href="#">黄南州</a>
+								</li>
+								<li>
+									<a href="#">哈尔滨市</a>
+								</li>
+								<li>
+									<a href="#">海北州</a>
+								</li>
+								<li>
+									<a href="#">邯郸市</a>
+								</li>
+								<li>
+									<a href="#">海南州</a>
+								</li>
+								<li>
+									<a href="#">湖州市</a>
+								</li>
+								<li>
+									<a href="#">海东地区</a>
+								</li>
+								<li>
+									<a href="#">哈密地区</a>
+								</li>
+								<li>
+									<a href="#">和田地区</a>
+								</li>
+								<li>
+									<a href="#">海口市</a>
+								</li>
+								<li>
+									<a href="#">杭州市</a>
+								</li>
+								<li>
+									<a href="#">鹤岗市</a>
+								</li>
+								<li>
+									<a href="#">衡水市</a>
+								</li>
+								<li>
+									<a href="#">汉中市</a>
+								</li>
+								<li>
+									<a href="#">呼和浩特市</a>
+								</li>
+								<li>
+									<a href="#">黄石市</a>
+								</li>
+								<li>
+									<a href="#">黑河市</a>
+								</li>
+								<li>
+									<a href="#">呼伦贝尔市</a>
+								</li>
+								<li>
+									<a href="#">河池市</a>
+								</li>
+								<li>
+									<a href="#">贺州市</a>
+								</li>
+								<li>
+									<a href="#">衡阳市</a>
+								</li>
+								<li>
+									<a href="#">红河州</a>
+								</li>
+								<li>
+									<a href="#">淮安市</a>
+								</li>
+								<li>
+									<a href="#">鹤壁市</a>
+								</li>
+								<li>
+									<a href="#">黄冈市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">J</span>
+							<ul>
+								<li>
+									<a href="#">江门市</a>
+								</li>
+								<li>
+									<a href="#">济源市</a>
+								</li>
+								<li>
+									<a href="#">锦州市</a>
+								</li>
+								<li>
+									<a href="#">嘉兴市</a>
+								</li>
+								<li>
+									<a href="#">金华市</a>
+								</li>
+								<li>
+									<a href="#">吉林市</a>
+								</li>
+								<li>
+									<a href="#">鸡西市</a>
+								</li>
+								<li>
+									<a href="#">揭阳市</a>
+								</li>
+								<li>
+									<a href="#">佳木斯市</a>
+								</li>
+								<li>
+									<a href="#">吉安市</a>
+								</li>
+								<li>
+									<a href="#">金昌市</a>
+								</li>
+								<li>
+									<a href="#">嘉峪关市</a>
+								</li>
+								<li>
+									<a href="#">晋中市</a>
+								</li>
+								<li>
+									<a href="#">九江市</a>
+								</li>
+								<li>
+									<a href="#">晋城市</a>
+								</li>
+								<li>
+									<a href="#">景德镇市</a>
+								</li>
+								<li>
+									<a href="#">酒泉市</a>
+								</li>
+								<li>
+									<a href="#">荆门市</a>
+								</li>
+								<li>
+									<a href="#">焦作市</a>
+								</li>
+								<li>
+									<a href="#">济南市</a>
+								</li>
+								<li>
+									<a href="#">荆州市</a>
+								</li>
+								<li>
+									<a href="#">济宁市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">K</span>
+							<ul>
+								<li>
+									<a href="#">昆明市</a>
+								</li>
+								<li>
+									<a href="#">克孜勒苏阿科尔克牧自治州</a>
+								</li>
+								<li>
+									<a href="#">喀什地区</a>
+								</li>
+								<li>
+									<a href="#">克拉玛依市</a>
+								</li>
+								<li>
+									<a href="#">开封市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">L</span>
+							<ul>
+								<li>
+									<a href="#">辽阳市</a>
+								</li>
+								<li>
+									<a href="#">娄底市</a>
+								</li>
+								<li>
+									<a href="#">莱芜市</a>
+								</li>
+								<li>
+									<a href="#">临沧市</a>
+								</li>
+								<li>
+									<a href="#">聊城市</a>
+								</li>
+								<li>
+									<a href="#">临沂市</a>
+								</li>
+								<li>
+									<a href="#">乐东县</a>
+								</li>
+								<li>
+									<a href="#">陵水县</a>
+								</li>
+								<li>
+									<a href="#">临高县</a>
+								</li>
+								<li>
+									<a href="#">凉山州</a>
+								</li>
+								<li>
+									<a href="#">临夏州</a>
+								</li>
+								<li>
+									<a href="#">柳州市</a>
+								</li>
+								<li>
+									<a href="#">六盘水市</a>
+								</li>
+								<li>
+									<a href="#">六安市</a>
+								</li>
+								<li>
+									<a href="#">廊坊市</a>
+								</li>
+								<li>
+									<a href="#">龙岩市</a>
+								</li>
+								<li>
+									<a href="#">辽源市</a>
+								</li>
+								<li>
+									<a href="#">拉萨市</a>
+								</li>
+								<li>
+									<a href="#">兰州市</a>
+								</li>
+								<li>
+									<a href="#">来宾市</a>
+								</li>
+								<li>
+									<a href="#">丽水市</a>
+								</li>
+								<li>
+									<a href="#">林芝地区</a>
+								</li>
+								<li>
+									<a href="#">吕梁市</a>
+								</li>
+								<li>
+									<a href="#">陇南市</a>
+								</li>
+								<li>
+									<a href="#">临汾市</a>
+								</li>
+								<li>
+									<a href="#">丽江市</a>
+								</li>
+								<li>
+									<a href="#">连云港市</a>
+								</li>
+								<li>
+									<a href="#">洛阳市</a>
+								</li>
+								<li>
+									<a href="#">乐山市</a>
+								</li>
+								<li>
+									<a href="#">泸州市</a>
+								</li>
+								<li>
+									<a href="#">漯河市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">M</span>
+							<ul>
+								<li>
+									<a href="#">梅州市</a>
+								</li>
+								<li>
+									<a href="#">马鞍山市</a>
+								</li>
+								<li>
+									<a href="#">眉山市</a>
+								</li>
+								<li>
+									<a href="#">牡丹江市</a>
+								</li>
+								<li>
+									<a href="#">茂名市</a>
+								</li>
+								<li>
+									<a href="#">绵阳市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">N</span>
+							<ul>
+								<li>
+									<a href="#">宁波市</a>
+								</li>
+								<li>
+									<a href="#">南宁市</a>
+								</li>
+								<li>
+									<a href="#">那曲地区</a>
+								</li>
+								<li>
+									<a href="#">宁德市</a>
+								</li>
+								<li>
+									<a href="#">南平市</a>
+								</li>
+								<li>
+									<a href="#">南昌市</a>
+								</li>
+								<li>
+									<a href="#">南充市</a>
+								</li>
+								<li>
+									<a href="#">南京市</a>
+								</li>
+								<li>
+									<a href="#">内江市</a>
+								</li>
+								<li>
+									<a href="#">怒江市</a>
+								</li>
+								<li>
+									<a href="#">南阳市</a>
+								</li>
+								<li>
+									<a href="#">南通市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">P</span>
+							<ul>
+								<li>
+									<a href="#">盘锦市</a>
+								</li>
+								<li>
+									<a href="#">普洱市</a>
+								</li>
+								<li>
+									<a href="#">萍乡市</a>
+								</li>
+								<li>
+									<a href="#">平凉市</a>
+								</li>
+								<li>
+									<a href="#">莆田市</a>
+								</li>
+								<li>
+									<a href="#">平顶山市</a>
+								</li>
+								<li>
+									<a href="#">濮阳市</a>
+								</li>
+								<li>
+									<a href="#">攀枝花市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">Q</span>
+							<ul>
+								<li>
+									<a href="#">黔东南州</a>
+								</li>
+								<li>
+									<a href="#">黔西南州</a>
+								</li>
+								<li>
+									<a href="#">黔南州</a>
+								</li>
+								<li>
+									<a href="#">曲靖市</a>
+								</li>
+								<li>
+									<a href="#">琼中县</a>
+								</li>
+								<li>
+									<a href="#">衢州市</a>
+								</li>
+								<li>
+									<a href="#">清远市</a>
+								</li>
+								<li>
+									<a href="#">齐齐哈尔市</a>
+								</li>
+								<li>
+									<a href="#">琼海市</a>
+								</li>
+								<li>
+									<a href="#">秦皇岛市</a>
+								</li>
+								<li>
+									<a href="#">七台河市</a>
+								</li>
+								<li>
+									<a href="#">庆阳市</a>
+								</li>
+								<li>
+									<a href="#">泉州市</a>
+								</li>
+								<li>
+									<a href="#">潜江市</a>
+								</li>
+								<li>
+									<a href="#">青岛市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">R</span>
+							<ul>
+								<li>
+									<a href="#">日照市</a>
+								</li>
+								<li>
+									<a href="#">日喀则地区</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">S</span>
+							<ul>
+								<li>
+									<a href="#">上海</a>
+								</li>
+								<li>
+									<a href="#">沈阳市</a>
+								</li>
+								<li>
+									<a href="#">汕尾市</a>
+								</li>
+								<li>
+									<a href="#">商丘市</a>
+								</li>
+								<li>
+									<a href="#">汕头市</a>
+								</li>
+								<li>
+									<a href="#">深圳市</a>
+								</li>
+								<li>
+									<a href="#">韶关市</a>
+								</li>
+								<li>
+									<a href="#">三沙市</a>
+								</li>
+								<li>
+									<a href="#">石家庄市</a>
+								</li>
+								<li>
+									<a href="#">松原市</a>
+								</li>
+								<li>
+									<a href="#">神农架林区</a>
+								</li>
+								<li>
+									<a href="#">三亚市</a>
+								</li>
+								<li>
+									<a href="#">绍兴市</a>
+								</li>
+								<li>
+									<a href="#">四平市</a>
+								</li>
+								<li>
+									<a href="#">石河子市</a>
+								</li>
+								<li>
+									<a href="#">宿州市</a>
+								</li>
+								<li>
+									<a href="#">山南地区</a>
+								</li>
+								<li>
+									<a href="#">双鸭山市</a>
+								</li>
+								<li>
+									<a href="#">石嘴山市</a>
+								</li>
+								<li>
+									<a href="#">十堰市</a>
+								</li>
+								<li>
+									<a href="#">商洛市</a>
+								</li>
+								<li>
+									<a href="#">绥化市</a>
+								</li>
+								<li>
+									<a href="#">上饶市</a>
+								</li>
+								<li>
+									<a href="#">朔州市</a>
+								</li>
+								<li>
+									<a href="#">厦门市</a>
+								</li>
+								<li>
+									<a href="#">三明市</a>
+								</li>
+								<li>
+									<a href="#">随州市</a>
+								</li>
+								<li>
+									<a href="#">宿迁市</a>
+								</li>
+								<li>
+									<a href="#">邵阳市</a>
+								</li>
+								<li>
+									<a href="#">遂宁市</a>
+								</li>
+								<li>
+									<a href="#">苏州市</a>
+								</li>
+								<li>
+									<a href="#">三门峡市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">T</span>
+							<ul>
+								<li>
+									<a href="#">天津</a>
+								</li>
+								<li>
+									<a href="#">塔城地区</a>
+								</li>
+								<li>
+									<a href="#">泰安市</a>
+								</li>
+								<li>
+									<a href="#">铜陵市</a>
+								</li>
+								<li>
+									<a href="#">屯昌县</a>
+								</li>
+								<li>
+									<a href="#">通化市</a>
+								</li>
+								<li>
+									<a href="#">吐鲁番地区</a>
+								</li>
+								<li>
+									<a href="#">铜仁市</a>
+								</li>
+								<li>
+									<a href="#">天门市</a>
+								</li>
+								<li>
+									<a href="#">唐山市</a>
+								</li>
+								<li>
+									<a href="#">太原市</a>
+								</li>
+								<li>
+									<a href="#">天水市</a>
+								</li>
+								<li>
+									<a href="#">台州市</a>
+								</li>
+								<li>
+									<a href="#">铁岭市</a>
+								</li>
+								<li>
+									<a href="#">泰州市</a>
+								</li>
+								<li>
+									<a href="#">通辽市</a>
+								</li>
+								<li>
+									<a href="#">图木舒克市</a>
+								</li>
+								<li>
+									<a href="#">铜川市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">W</span>
+							<ul>
+								<li>
+									<a href="#">芜湖市</a>
+								</li>
+								<li>
+									<a href="#">潍坊市</a>
+								</li>
+								<li>
+									<a href="#">威海市</a>
+								</li>
+								<li>
+									<a href="#">五指山市</a>
+								</li>
+								<li>
+									<a href="#">文昌市</a>
+								</li>
+								<li>
+									<a href="#">温州市</a>
+								</li>
+								<li>
+									<a href="#">万宁市</a>
+								</li>
+								<li>
+									<a href="#">梧州市</a>
+								</li>
+								<li>
+									<a href="#">乌鲁木齐市</a>
+								</li>
+								<li>
+									<a href="#">吴忠市</a>
+								</li>
+								<li>
+									<a href="#">乌兰察布市</a>
+								</li>
+								<li>
+									<a href="#">乌海市</a>
+								</li>
+								<li>
+									<a href="#">五家渠市</a>
+								</li>
+								<li>
+									<a href="#">武汉市</a>
+								</li>
+								<li>
+									<a href="#">武威市</a>
+								</li>
+								<li>
+									<a href="#">文山州</a>
+								</li>
+								<li>
+									<a href="#">无锡市</a>
+								</li>
+								<li>
+									<a href="#">渭南市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">X</span>
+							<ul>
+								<li>
+									<a href="#">信阳市</a>
+								</li>
+								<li>
+									<a href="#">湘西州</a>
+								</li>
+								<li>
+									<a href="#">西宁市</a>
+								</li>
+								<li>
+									<a href="#">邢台市</a>
+								</li>
+								<li>
+									<a href="#">仙桃市</a>
+								</li>
+								<li>
+									<a href="#">襄阳市</a>
+								</li>
+								<li>
+									<a href="#">宣城市</a>
+								</li>
+								<li>
+									<a href="#">忻州市</a>
+								</li>
+								<li>
+									<a href="#">兴安盟</a>
+								</li>
+								<li>
+									<a href="#">新余市</a>
+								</li>
+								<li>
+									<a href="#">锡林郭勒盟</a>
+								</li>
+								<li>
+									<a href="#">湘潭市</a>
+								</li>
+								<li>
+									<a href="#">西双版纳州</a>
+								</li>
+								<li>
+									<a href="#">徐州市</a>
+								</li>
+								<li>
+									<a href="#">孝感市</a>
+								</li>
+								<li>
+									<a href="#">西安市</a>
+								</li>
+								<li>
+									<a href="#">新乡市</a>
+								</li>
+								<li>
+									<a href="#">咸宁市</a>
+								</li>
+								<li>
+									<a href="#">咸阳市</a>
+								</li>
+								<li>
+									<a href="#">许昌市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">Y</span>
+							<ul>
+								<li>
+									<a href="#">伊犁州</a>
+								</li>
+								<li>
+									<a href="#">营口市</a>
+								</li>
+								<li>
+									<a href="#">玉溪市</a>
+								</li>
+								<li>
+									<a href="#">烟台市</a>
+								</li>
+								<li>
+									<a href="#">永州市</a>
+								</li>
+								<li>
+									<a href="#">益阳市</a>
+								</li>
+								<li>
+									<a href="#">延边州</a>
+								</li>
+								<li>
+									<a href="#">玉林市</a>
+								</li>
+								<li>
+									<a href="#">玉树州</a>
+								</li>
+								<li>
+									<a href="#">云浮市</a>
+								</li>
+								<li>
+									<a href="#">伊春市</a>
+								</li>
+								<li>
+									<a href="#">阳江市</a>
+								</li>
+								<li>
+									<a href="#">银川市</a>
+								</li>
+								<li>
+									<a href="#">榆林市</a>
+								</li>
+								<li>
+									<a href="#">宜春市</a>
+								</li>
+								<li>
+									<a href="#">阳泉市</a>
+								</li>
+								<li>
+									<a href="#">鹰潭市</a>
+								</li>
+								<li>
+									<a href="#">扬州市</a>
+								</li>
+								<li>
+									<a href="#">雅安市</a>
+								</li>
+								<li>
+									<a href="#">运城市</a>
+								</li>
+								<li>
+									<a href="#">盐城市</a>
+								</li>
+								<li>
+									<a href="#">岳阳市</a>
+								</li>
+								<li>
+									<a href="#">宜宾市</a>
+								</li>
+								<li>
+									<a href="#">宜昌市</a>
+								</li>
+								<li>
+									<a href="#">延安市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list">
+							<span class="upperletter">Z</span>
+							<ul>
+								<li>
+									<a href="#">中山市</a>
+								</li>
+								<li>
+									<a href="#">珠海市</a>
+								</li>
+								<li>
+									<a href="#">周口市</a>
+								</li>
+								<li>
+									<a href="#">驻马店市</a>
+								</li>
+								<li>
+									<a href="#">昭通市</a>
+								</li>
+								<li>
+									<a href="#">张家界市</a>
+								</li>
+								<li>
+									<a href="#">资阳市</a>
+								</li>
+								<li>
+									<a href="#">湛江市</a>
+								</li>
+								<li>
+									<a href="#">张家口市</a>
+								</li>
+								<li>
+									<a href="#">遵义市</a>
+								</li>
+								<li>
+									<a href="#">肇庆市</a>
+								</li>
+								<li>
+									<a href="#">舟山市</a>
+								</li>
+								<li>
+									<a href="#">中卫市</a>
+								</li>
+								<li>
+									<a href="#">漳州市</a>
+								</li>
+								<li>
+									<a href="#">张掖市</a>
+								</li>
+								<li>
+									<a href="#">株洲市</a>
+								</li>
+								<li>
+									<a href="#">郑州市</a>
+								</li>
+								<li>
+									<a href="#">淄博市</a>
+								</li>
+								<li>
+									<a href="#">枣庄市</a>
+								</li>
+								<li>
+									<a href="#">自贡市</a>
+								</li>
+								<li>
+									<a href="#">镇江市</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="scroll">
+						<div class="bar">
+							
+						</div>
+					</div>
+				</div>
 			</div>
 			<span class="logintxt">Hi,请&nbsp;<a href="#" class="log">登录</a></span>
 			<span class="registertxt"><a href="#" class="reg">注册</a></span>
 			<ul class="topr">
-				<li class="mylist"><a href="#">我的订单</a></li>
+				<li class="mylist">
+					<a href="#">我的订单</a>
+				</li>
 				<li class="client">
 					<a href="#" class="khfw1">客户服务</a>
-					<img src="img/downtri.png"/>
+					<img src="img/downtri.png" />
 					<ul class="khfw">
-						<li><a href="#">&nbsp;&nbsp;&nbsp;包裹跟踪</a></li>
-						<li><a href="#">在线退换货</a></li>
+						<li>
+							<a href="#">&nbsp;&nbsp;&nbsp;包裹跟踪</a>
+						</li>
+						<li>
+							<a href="#">在线退换货</a>
+						</li>
 					</ul>
 				</li>
-				<li><a href="#">企业服务</a></li>
+				<li>
+					<a href="#">企业服务</a>
+				</li>
 			</ul>
 		</header>
+		
+		<!--logo部分-->
+		<div class="second_line">
+			<!--<img src="img/logo.png"/>-->
+			<img src="img/friday.gif"/>
+			<div class="inPut">
+				<input type="text" placeholder="请输入关键词">
+				<img src="" alt="" />
+			</div>
+			
+		</div>
 		<script>
-			$(function(){
-				$('.client').on('mouseover',function(){
+			$(function() {
+				$('.client').on('mouseover', function() {
 					$('.khfw').css({
-						'display':'block'
+						'display': 'block'
 					})
 				});
-				$('.client').on('mouseleave',function(){
+				$('.client').on('mouseleave', function() {
 					$('.khfw').css({
-						'display':'none'
+						'display': 'none'
 					})
 				});
-				
+				$('.sh_address').on('mouseover', function() {
+					$('.manyads').css({
+						'display': 'block'
+					})
+					$('.sh_address').css({
+						'background': 'white',
+						'border': '1px solid #e5e5e5',
+						'border-bottom': 'none'
+					})
+				});
+				$('.sh_address').on('mouseout', function() {
+					$('.manyads').css({
+						'display': 'none'
+					})
+					$('.sh_address').css({
+						'background': '#F4F4F4',
+						'border': 'none'
+					})
+				});
 			});
 		</script>
+		<script>
+			var box = document.getElementById('box');
+			var con = box.children[0];
+			var scroll = box.children[1];
+			var bar = scroll.children[0];
+			
+			//确定bar的高
+			//------------------内容的高/盒子的高=scroll的高/bar的高
+			var barHeight = box.offsetHeight * scroll.offsetHeight / con.offsetHeight;
+			bar.style.height = barHeight + 'px';
+			
+			bar.onmousedown = function(event){
+				var e = event||window.event;
+				var pageY = e.pageY||scroll().top + e.clientY;
+//				console.log("pageY = "+pageY);
+//				console.log("scroll().top = "+scroll().top);
+//				console.log("e.pageY = "+e.pageY);
+//				console.log("e.clientY = "+e.clientY);
+				//鼠标相对于盒子的位置
+				var y = pageY - bar.offsetTop;
+				//拖动滚动条
+				document.onmousemove = function(event){
+					var e = event||window.event;
+					var pageYY = e.pageY||scroll().top + e.clientY;
+					
+					//----bar移动到的位置
+					pageYY = pageYY - y;
+					//----判断位置
+					//顶部
+					if(pageYY < 0){
+						pageYY = 0;
+					}
+					//底部
+					if(pageYY > scroll.offsetHeight - bar.offsetHeight){
+						pageYY = scroll.offsetHeight - bar.offsetHeight;
+					}
+					bar.style.top = pageYY + 'px';
+					
+					//-----内容与bar的比例关系
+					//-----高级比例
+					//-----内容走的距离 / bar走的距离 = (内容的高-盒子的高)/(scroll-bar的高)
+					
+					var compare = pageYY*(con.offsetHeight - box.offsetHeight)/(scroll.offsetHeight - bar.offsetHeight);
+					con.style.marginTop = -compare + 'px';
+					
+					//----禁止文本选中
+					window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
+				}
+				document.onmouseup = function(){
+					document.onmousemove = null;
+					document.onmouseup = null;
+				}
+			}
+		</script>
 	</body>
+
 </html>
