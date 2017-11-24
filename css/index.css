@@ -1,0 +1,264 @@
+header{
+	position: relative;
+	width: 100%;
+	height:30px;
+	background: #F4F4F4;
+	border-bottom: 1px solid #e5e5e5;
+}
+header .sh_address{
+	position: absolute;
+	left: 62px;
+	width: 122px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	/*border: 1px solid gray;*/
+	cursor: pointer;
+}
+header .sh_address .ads_icon{
+	width: 16px;
+	height: 16px;
+	background: url(../img/address.png) cover;
+}
+header .sh_address a.changeads{
+	font-size: 12px;
+	color: rgb(102,102,102);
+}
+header .sh_address:hover a.changeads{
+	color: rgb(255,64,64);
+}
+header .logintxt{
+	position: absolute;
+	left: 920px;
+	width: 62px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: rgb(255,64,64);
+}
+header .logintxt a.log{
+	font-size: 12px;
+	color: rgb(255,64,64);
+}
+header .logintxt a.log:hover{
+	cursor: pointer;
+}
+header .registertxt{
+	position: absolute;
+	left: 982px;
+	width: 42px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+}
+header .registertxt a.reg{
+	font-size: 12px;
+	color: rgb(177,177,196);
+}
+header .registertxt a.reg:hover{
+	color: rgb(255,64,64);
+}
+header ul.topr{
+	position: absolute;
+	left: 1034px;
+	/*border: 1px solid gray;*/
+}
+header ul.topr li{
+	float: left;
+	padding: 0px;
+	margin-right: 8px;
+	width: 64px;
+	text-align: center;
+	line-height: 30px;
+	/*border: 1px solid red;*/
+}
+header ul.topr li.mylist{
+	width: 62px;
+	padding-left: 8px;
+	background: url(../img/list_black.png) 2px no-repeat;
+	background-size: 13px 13px;
+	text-align: center;
+	line-height: 30px;
+	/*border: 1px solid red;*/
+}
+header ul.topr li.mylist:hover{
+	background: url(../img/list_red.png) 2px no-repeat;
+	background-size: 13px 13px;
+}
+header ul.topr li.mylist:hover a{
+	color: rgb(255,64,64);
+}
+header ul.topr li a{
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	color: rgb(102,102,102);
+}
+header ul.topr li:nth-child(2){
+	position: relative;
+	width: 86px;
+}
+header ul.topr li:nth-child(2) img{
+	margin-left: 4px;
+	width: 8px;
+	height: 8px;
+	line-height: 30px;
+}
+header ul.topr li:nth-child(2):hover img,
+header ul.topr li:nth-child(2):hover a.khfw{
+	color: rgb(255,64,64);
+	animation: rot 0.5s ;
+	transform-origin: center;
+}
+header ul.topr li:nth-child(2):hover{
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-bottom: 1px solid #fff;
+	background: #fff;
+}
+@keyframes leave{
+	0%{
+		transform: rotateZ(360deg);
+	}
+	50%{
+		transform: rotateZ(90deg);
+	}
+	100%{
+		transform: rotateZ(0deg);
+	}
+}
+@keyframes rot{
+	0%{
+		transform: rotateZ(0deg);
+		transform-origin: center;
+	}
+	50%{
+		transform: rotateZ(180deg);
+	}
+	100%{
+		transform: rotateZ(360deg);
+	}
+}
+header ul.topr li:nth-child(2) ul{
+	position: absolute;
+	left: -1px;
+	display: none;
+}
+header ul.topr li:nth-child(2) ul li{
+	width: 78px;
+	text-align: center;
+}
+header ul.topr li:nth-child(2) ul li a:hover{
+	color: rgb(255,64,64);
+}
+header ul.topr li:nth-child(2) ul li:nth-child(1){
+	text-align: initial;
+}
+header ul.topr li:nth-child(2) ul li:nth-child(2){
+	padding: 0px;
+	margin-left: 0px;
+}
+header ul.topr li:nth-child(2):hover ul{
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	background: #fff;
+}
+header ul.topr li:nth-child(3):hover {
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+}
+.manyads{
+	position:absolute;
+	top: 32px;
+	left: 62px;
+	padding-left: 20px;
+	width:700px;
+	height: 405px;
+	border:1px solid #e5e5e5;
+	border-top: none;background: #fff;
+}
+.formtab{
+	height: 54px;
+	text-align: initial;
+	line-height: 54px;
+}
+.formtab label{
+	float: left;
+	font-weight: bold;
+	font-size: 13px;
+}
+.formtab input[type="text"]{
+	padding-left: 25px;
+	margin-left: 6px;
+	width: 148px;
+	height: 26px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	background: url(../img/search.png) 8px 6px no-repeat;
+	background-size: 15px 15px ;
+}
+label[for="hotcity"]{
+	margin-top: -8px;
+}
+.formtab{
+	border-bottom: 1px solid dashed;
+}
+.formtab ul.hotcity{
+	width: 630px;
+	margin-left: 70px;
+	height: 38px;
+	line-height: 12px;
+	/*border: 1px solid red;*/
+}
+.formtab ul.hotcity li{
+	float: left;
+	margin-top: 12px;
+	width: 38px;
+	margin-right: 24px;
+	font-size: 12px;
+}
+.formtab ul.hotcity li a{
+	color: #666;
+}
+.formtab ul.hotcity li a:hover{
+	color: rgb(255,64,64);
+}
+.xvx{
+	margin: 12px 0px;
+	height: 1px;
+	border-top: 1px dotted #ccc;
+}
+.formtab ul.letters{
+	width: 630px;
+	margin-left: 70px;
+	/*border: 1px solid red;*/
+}
+.formtab ul.letters li{
+	float: left;
+	margin-right: 6px;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	background: rgb(238,238,238);
+}
+.formtab ul.letters li:nth-child(22){
+	margin-right: 0px;
+}
+.formtab ul.letters li a{
+	color: rgb(128,128,128);
+	font-size: 12px;
+}
+label[for="letters"]{
+	font-size: 13px;
+	margin-top: -16px;
+}
+/*---------------按字母查找下部----------*/
+.uplettercon li span.upperletter{
+	color: rgb(206,206,206);
+	font-size: 14px;
+}
